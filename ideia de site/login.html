@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Catálogo de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="auth-body">
+  <main class="auth-main">
+    <section class="auth-card">
+
+      <div class="auth-copy">
+        <p class="eyebrow">Projeto didatico</p>
+
+        <h1>Login no catalogo de filmes</h1>
+
+        <p>
+          Exemplo simples de autenticacao com Flask, sessao e usuarios
+          armazenados em arquivo JSON.
+        </p>
+
+        <ul class="auth-list">
+          <li>Validacao de usuario e senha no back-end</li>
+          <li>Persistencia dos usuarios em <code>data/users.json</code></li>
+          <li>
+            Front-end consumindo <code>/api/login</code> com
+            <code>fetch</code>
+          </li>
+        </ul>
+      </div>
+
+      <form class="auth-form">
+        <label>
+          <span>Usuario</span>
+          <input type="text" placeholder="Digite o usuario">
+        </label>
+
+        <label>
+          <span>Senha</span>
+          <input type="password" placeholder="Digite a senha">
+        </label>
+
+        <button type="submit">Entrar</button>
+      </form>
+
+    </section>
+  </main>
+</body>
+
+</body>
