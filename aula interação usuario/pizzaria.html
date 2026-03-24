@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzaria do Código | Sabor e Tecnologia</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <h1>Pizzaria do Código</h1>
+        <p class="subtitle">
+          Massa fina, borda recheada e ingredientes frescos. 
+          Peça online agora mesmo!
+        </p>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#destaque">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <form class="search-form" action="#cardapio" role="search">
+        <input type="search" placeholder="Buscar sabor (ex: Pepperoni)" aria-label="Buscar pizza" />
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section id="destaque" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-info">
+          <span class="badge">Promoção</span>
+          <h2>Peça 2, leve 3 nas quartas-feiras</h2>
+          <p>
+            Válido para pizzas médias + refrigerante. Aproveite essa oferta exclusiva para pedidos via site.
+          </p>
+          <a class="button" href="#cardapio">Ver Cardápio Completo</a>
+        </div>
+        
+        <div class="hero-panel">
+  <div class="panel-header">
+    <h3>Como funciona</h3>
+  </div>
+  <ul class="steps-list">
+    <li><span class="step-num">1</span> Escolha seu sabor favorito</li>
+    <li><span class="step-num">2</span> Selecione o tamanho e borda</li>
+    <li><span class="step-num">3</span> Finalize o pedido no checkout</li>
+    <li><span class="step-num">4</span> Receba em casa em até 40 min</li>
+  </ul>
+</div>
+
+    <section id="cardapio" class="catalog-section">
+      <div class="container section-header">
+        <div>
+          <p class="eyebrow">Seleção Especial</p>
+          <h2>Nossas Pizzas Salgadas</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="pizza-list">
+          
+          <article class="pizza-card">
+            <img src="https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/494feec171f5683665eba434d22e52f5.jpg?itok=n3xpYgtR" alt="Pizza Margherita" />
+            <div class="pizza-card-content">
+              <h3>Margherita</h3>
+              <p class="movie-meta">Molho de tomate, mussarela e manjericão fresco.</p>
+              <p>A clássica italiana com ingredientes de alta qualidade e massa artesanal.</p>
+              <span class="pizza-price">R$ 35,90</span>
+            </div>
+          </article>
+
+          <article class="pizza-card">
+            <img src="https://www.galbani.com.br/wp-content/uploads/2025/04/image-51.jpeg" alt="Pizza Pepperoni" />
+            <div class="pizza-card-content">
+              <h3>Pepperoni Especial</h3>
+              <p class="movie-meta">Pepperoni artesanal, mussarela e orégano.</p>
+              <p>Para quem busca um sabor marcante com um leve toque picante.</p>
+              <span class="pizza-price">R$ 42,50</span>
+            </div>
+          </article>
+
+          <article class="pizza-card">
+            <img src="https://redefoodservice.com.br/wp-content/uploads/2023/07/Pizza-Quatro-Queijos.jpg" alt="Pizza Quatro Queijos" />
+            <div class="pizza-card-content">
+              <h3>Quatro Queijos</h3>
+              <p class="movie-meta">Mussarela, catupiry, provolone e gorgonzola.</p>
+              <p>Uma explosão de cremosidade para os amantes de queijo.</p>
+              <span class="pizza-price">R$ 48,90</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="container section-header">
+        <div>
+          <p class="eyebrow">Sobremesa</p>
+          <h2>Pizzas Doces</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="pizza-list">
+          <article class="pizza-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrsQo-5i7MYu6kaAekqv3kbhxbve52WUdeww&s" alt="Pizza de Chocolate" />
+            <div class="pizza-card-content">
+              <h3>Chocolate Supreme</h3>
+              <p class="movie-meta">Chocolate meio amargo, morangos e leite condensado.</p>
+              <p>A finalização perfeita para o seu jantar em família.</p>
+              <span class="pizza-price">R$ 39,90</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   <section id="contato" class="catalog-section">
+      <div class="container section-header">
+        <p class="eyebrow">Onde estamos</p>
+        <h2>Peça pelo WhatsApp</h2>
+      </div>
+      
+      <div class="contato-container">
+  <p>
+    <strong>📍 NOSSO ENDEREÇO</strong>
+    <span style="font-size: 1.2rem; font-weight: 700;">Rua da Pizza, 123 - Centro, São Paulo</span>
+  </p>
+  
+  <hr style="border: 0; border-top: 1px solid var(--line); margin: 2rem 0;">
+
+  <p>
+    <strong>📞 LIGUE AGORA</strong>
+    <span class="phone-highlight">(11) 4000-1234</span>
+  </p>
+  
+  <p>
+    <strong>📱 PEDIDOS VIA WHATSAPP</strong>
+    <a href="#" class="whatsapp-link">(11) 9 8765-4321</a>
+  </p>
+  
+  <p style="margin-top: 2rem; background: var(--panel); padding: 10px; border-radius: 8px;">
+    🕒 Aberto todos os dias: 17h às 23h
+  </p>
+</div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Pizzaria do Código. Saboreie cada linha de código.</p>
+    </div>
+  </footer>
+</body>
+</html>
